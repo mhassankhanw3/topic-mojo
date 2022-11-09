@@ -1,10 +1,15 @@
 import Head from 'next/head'
 import Cards from '../components/Cards';
+import Content from '../components/Content';
+import DaisyCards from '../components/DaisyCards';
 import Feature from "../components/Feature";
+import Footer from '../components/Footer';
 import Hero from "../components/Hero";
 import LaunchOption from '../components/LaunchOption';
 import Navbar from "../components/Navbar";
 import PlatformFeatures from '../components/PlatformFeatures';
+import Pricing from '../components/Pricing';
+import Subscribe from '../components/Subscribe';
 import Topics from '../components/Topics';
 import Users from '../components/Users';
 
@@ -24,6 +29,11 @@ export default function Home() {
         <LaunchOption />
         <Cards />
         <PlatformFeatures />
+        <DaisyCards />
+        <Content />
+        <Pricing />
+        <Subscribe />
+        <Footer />
     </div>
   )
 }

@@ -1,0 +1,372 @@
+.main_section {
+  margin-top: 40%;
+}
+
+.flex_bill {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin: 30px auto;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.gray {
+  background: #484848;
+  border-radius: 43px;
+  width: 55px;
+  height: 32px;
+  text-align: center;
+  margin: 0px 6px 0px 6px;
+}
+.white {
+  margin-top: 4px;
+  margin-left: 5px;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+.price {
+  margin-top: 10px;
+}
+
+.price h2 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 53px;
+  text-align: center;
+  color: #242424;
+}
+.price_p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 167%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #5a5a5a;
+}
+.flex_p_bill {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 167%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #393939;
+}
+.flex_bill_year {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 167%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #393939;
+}
+.flex_bill_off {
+  margin-left: 3px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 167%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #568cde;
+}
+
+.firstCard {
+  margin: 0px 16px 0px 16px;
+  border: 0.1px solid rgb(237, 237, 237);
+  background-color: #f3f4f6;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 350px;
+  display: block;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 1px 1px 40px rgba(139, 139, 139, 0.08);
+  border-radius: 20px;
+}
+
+.free {
+  /* border: 1px solid black; */
+  text-align: start;
+  width: 284px;
+  margin: auto;
+}
+.free h4 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #393939;
+}
+
+.free p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #62657e;
+}
+
+.dollar {
+  /* border: 1px solid black; */
+  text-align: start;
+  width: 284px;
+  display: flex;
+  align-items: center;
+  margin: 4px auto 10px auto;
+}
+.dollar .dollar_one {
+  /* border: 1px solid black; */
+  margin-top: -20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: #393939;
+}
+.dollar .dollar_two {
+  /* border: 1px solid black; */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 81px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #393939;
+  margin-left: 4px;
+}
+.dollar .dollar_three {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: #b1b1b1;
+  margin-top: 20px;
+}
+
+.btn button {
+  width: 284px;
+  height: 55px;
+  background: #282a3a;
+  border-radius: 8px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  border: none;
+}
+
+.bill_card {
+  display: flex;
+  align-items: center;
+  margin: 100px auto;
+  width: 1200px;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.allMsg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.icons_flex {
+  width: 284px;
+  /* border: 1px solid black; */
+  margin: 14px auto;
+  display: flex;
+  align-items: center;
+}
+
+.icons_flex h4 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #393939;
+  margin-left: 10px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #282a3a;
+}
+.icon_cross {
+  font-size: 20px;
+  color: #ff6565;
+}
+/* F7EAFF */
+
+.firstCard .dark {
+  background-color: #ffe9ba;
+  border-radius: 25px;
+  width: 284px;
+  margin: 30px auto;
+}
+
+.secondCard {
+  color: white;
+  margin: 0px 10px 0px 10px;
+  border: 0.1px solid rgb(237, 237, 237);
+  background-color: #282a3a;
+  box-shadow: 1px 1px 40px rgba(139, 139, 139, 0.08);
+  width: 350px;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+}
+.firstCard .pink {
+  background-color: #ffdcdc;
+  border-radius: 25px;
+  width: 284px;
+  margin: 30px auto;
+}
+.firstCard .yellow {
+  background-color: #F7EAFF;
+  border-radius: 25px;
+  width: 284px;
+  margin: 30px auto;
+}
+.secondCard .pink {
+  background-color: #ffdcdc;
+  border-radius: 25px;
+  width: 284px;
+  margin: 30px auto;
+}
+.secondCard .dark {
+  background-color: #ffe9ba;
+  border-radius: 25px;
+  width: 284px;
+  margin: 30px auto;
+}
+.darkbtn button {
+  width: 284px;
+  height: 55px;
+  background-color: white;
+  border-radius: 8px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #282a3a;
+  border: none;
+}
+.free_second {
+  /* border: 1px solid black; */
+  text-align: start;
+  width: 284px;
+  margin: auto;
+}
+.free_second h4 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  /* margin-left: 10px; */
+}
+
+.free_second p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.dollar_second {
+  /* border: 1px solid black; */
+  text-align: start;
+  width: 284px;
+  display: flex;
+  align-items: center;
+  margin: 4px auto 10px auto;
+}
+.dollar_second .dollar_one {
+  /* border: 1px solid black; */
+  margin-top: -20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.dollar_second .dollar_two {
+  /* border: 1px solid black; */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 81px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-left: 4px;
+}
+.dollar_second .dollar_three {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: #b1b1b1;
+  margin-top: 20px;
+}
+
+.icons_flex_second {
+  width: 284px;
+  /* border: 1px solid black; */
+  margin: 14px auto;
+  display: flex;
+  align-items: center;
+}
+
+.icons_flex_second h4 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.icon {
+  font-size: 20px;
+  color:  #393939;
+}
+.icon_cross_second {
+  font-size: 20px;
+  color:  #1ED131;
+}
