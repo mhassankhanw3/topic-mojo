@@ -76,7 +76,7 @@
 }
 .bg_white .bg_img {
   top: -150px;
-  left: 300px;
+  left: 350px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -89,6 +89,7 @@
 .bg_white p {
   position: absolute;
   top: -230px;
+  left: 20px;
   margin: auto;
   display: flex;
   justify-content: center;
