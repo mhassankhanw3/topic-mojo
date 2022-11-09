@@ -46,6 +46,7 @@
   padding: 20px 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 30px;
 }
 .img {
@@ -84,6 +85,7 @@
   padding: 20px 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 30px 0px 0px 50px;
 }
 .block2 {
@@ -123,8 +125,10 @@
   position: absolute;
   display: flex;
   align-items: center;
-  margin: 70px 0px 0px 330px;
-  /* border: 1px solid black; */
+  width: 100%;
+  margin: 70px 0px 0px 00px;
+  justify-content: center;
+  border: 1px solid black;
 }
 .flex_launch h2{
   /* border: 1px solid black; */
@@ -153,7 +157,8 @@
   padding: 20px 20px;
   display: flex;
   align-items: center;
-  margin-top: 25%;
+  margin-top: 8%;
+  justify-content: center;
 }
 
 .block_block {
