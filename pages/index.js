@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import Cards from '../components/Cards';
 import Feature from "../components/Feature";
 import Hero from "../components/Hero";
 import LaunchOption from '../components/LaunchOption';
 import Navbar from "../components/Navbar";
+import PlatformFeatures from '../components/PlatformFeatures';
 import Topics from '../components/Topics';
 import Users from '../components/Users';
 
@@ -20,6 +22,8 @@ export default function Home() {
         <Users />
         <Topics />
         <LaunchOption />
+        <Cards />
+        <PlatformFeatures />
     </div>
   )
 }
