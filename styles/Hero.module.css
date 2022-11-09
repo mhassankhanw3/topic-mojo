@@ -65,13 +65,13 @@
     margin-top: 100px;
 }
 .as_feature .bg_bg{
-    position: absolute;
+    position: relative;
     width: 100%;
 }
-.as_feature .bg_white{
-    width: 500px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: white;
-    position: absolute;
+.bg_white{
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  /* margin-top: 100px; */
+  /* margin: auto; */
 }
