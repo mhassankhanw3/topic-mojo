@@ -1,0 +1,37 @@
+.nav {
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    width: 1250px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    width: auto;
+    margin: auto;
+}
+.nav ul li{
+    margin: 0 14px;
+    cursor: pointer;
+}
+.nav .topic_mojo_img{
+    cursor: pointer;;
+    width: 200px;
+    height: 45px;
+}
+.nav button{
+    background-color: #282a3a;
+    padding: 10px 16px;
+    /* margin-right: 20px; */
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor:pointer;
+}
+.nav .topic_mojo_img{
+    width: auto;
+}

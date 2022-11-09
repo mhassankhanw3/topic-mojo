@@ -1,0 +1,77 @@
+.flex {
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.block {
+  margin-top: -60px;
+  display: block;
+  width: 530px;
+  /* border: 1px solid black; */
+}
+.block h1 {
+  font-weight: 700;
+  font-size: 42px;
+  color: rgb(23, 23, 23);
+}
+.block p {
+  margin-top: -10px;
+  font-size: 18px;
+  color: rgba(90, 90, 90, 1);
+}
+.block button {
+  width: 250.07px;
+  height: 56px;
+  left: 110px;
+  top: 389px;
+  background: #282a3a;
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 80px;
+}
+.block .span {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid brown; */
+  width: 450px;
+  justify-content: space-between;
+}
+.block .span span {
+  width: 186px;
+  height: 18px;
+  left: 150px;
+  top: 493px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #646464;
+}
+.block .spanImg {
+  width: 194px;
+  height: 36px;
+  left: 355px;
+  top: 485px;
+}
+.as_feature{
+    margin-top: 100px;
+}
+.as_feature .bg_bg{
+    position: absolute;
+    width: 100%;
+}
+.as_feature .bg_white{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+}
