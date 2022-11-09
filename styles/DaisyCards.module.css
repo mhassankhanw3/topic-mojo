@@ -19,6 +19,7 @@
   width: 99%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .card_one {
   margin: -85px 30px 10px -85px;
@@ -256,8 +257,11 @@
 
 .bulb {
   position: absolute;
-  margin: 10px 0px 0px 500px;
-  /* border: 1px solid black; */
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  border: 1px solid black;
+  display: block;
+  justify-content: center;
   text-align: center;
   padding: 10px 10px;
 }
