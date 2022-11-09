@@ -89,8 +89,7 @@
 .bg_white p {
   position: absolute;
   top: -230px;
-  /* border: 1px solid black; */
-  margin: auto;
+  margin: auto auto auto 100px;
   display: flex;
   justify-content: center;
   align-items: center;
