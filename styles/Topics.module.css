@@ -128,7 +128,7 @@
   width: 100%;
   margin: 70px 0px 0px 00px;
   justify-content: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .flex_launch h2{
   /* border: 1px solid black; */
@@ -157,7 +157,7 @@
   padding: 20px 20px;
   display: flex;
   align-items: center;
-  margin-top: 8%;
+  margin-top: 20%;
   justify-content: center;
 }
 

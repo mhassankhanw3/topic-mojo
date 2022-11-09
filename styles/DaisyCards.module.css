@@ -259,7 +259,7 @@
   position: absolute;
   margin: 10px 0px 0px 0px;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: block;
   justify-content: center;
   text-align: center;
