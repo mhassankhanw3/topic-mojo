@@ -1,0 +1,111 @@
+.flex {
+  /* border: 1px solid black; */
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.block {
+  margin-top: -60px;
+  display: block;
+  width: 530px;
+  /* border: 1px solid black; */
+}
+.block h1 {
+  font-weight: 700;
+  font-size: 42px;
+  color: rgb(23, 23, 23);
+}
+.block p {
+  margin: 20px 0px;
+  font-size: 18px;
+  color: rgba(90, 90, 90, 1);
+}
+.block button {
+  width: 250.07px;
+  height: 56px;
+  left: 110px;
+  top: 389px;
+  background: #282a3a;
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 80px;
+}
+.block .span {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid brown; */
+  width: 450px;
+  justify-content: space-between;
+}
+.block .span span {
+  width: 186px;
+  height: 18px;
+  left: 150px;
+  top: 493px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #646464;
+}
+.block .spanImg {
+  width: 194px;
+  height: 36px;
+  left: 355px;
+  top: 485px;
+}
+.as_feature {
+  justify-content: center;
+  display: block;
+  margin-top: 170px;
+}
+.as_feature .bg_bg {
+  position: relative;
+  width: 100%;
+}
+.bg_white {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: -150px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  /* border: 1px solid black; */
+
+}
+.bg_white .bg_img {
+  /* margin-top: -150px;
+  margin-left: 370px; */
+  width: auto;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* border: 1px solid black; */
+}
+.bg_white h2 {
+  position: absolute;
+  margin-top: -60px;
+  /* margin: -250px auto 20px auto; */
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  width: 1500px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #242424;
+  /* border: 1px solid black; */
+}

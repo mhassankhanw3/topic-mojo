@@ -1,0 +1,41 @@
+.black {
+  width: 58px;
+  height: 58px;
+  margin: auto;
+  background: #242424;
+  border-radius: 8px;
+  text-align: center;
+}
+.msg {
+  margin-top: 13px;
+}
+.block {
+  /* border: 1px solid black; */
+  width: 200px;
+  margin: auto 70px auto 70px;
+  text-align: center;
+  justify-content: center;
+  display: block;
+}
+.block h3 {
+  margin-top: 20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #242424;
+  text-align: center;
+}
+.block p{
+    color: #5A5A5A;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
