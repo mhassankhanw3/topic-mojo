@@ -10,14 +10,14 @@ const Navbar = () => {
         <Image className={styles.topic_mojo_img} src={topic_mojo} />
       </div>
       <ul>
-        <Link href="/">
-          <li>TOOLS</li>
+        <Link legacyBehavior href="/">
+          <li><a href="/">TOOLS</a></li>
         </Link>
-        <Link href="/">
-          <li>PRICING</li>
+        <Link legacyBehavior href="/">
+          <li><a href="/">PRICING</a></li>
         </Link>
-        <Link href="/">
-          <li>RESOURCES</li>
+        <Link legacyBehavior href="/">
+          <li><a href="/">RESOURCES</a></li>
         </Link>
       </ul>
       <div className={styles.button}>

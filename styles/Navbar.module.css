@@ -10,12 +10,18 @@
 .nav ul{
     display: flex;
     list-style: none;
+    text-decoration: none;
     width: auto;
     margin: auto;
 }
 .nav ul li{
+    text-decoration: none;
     margin: 0 14px;
     cursor: pointer;
+}
+.nav ul li a{
+    color:rgba(130, 130, 130, 1);
+    text-decoration: none;
 }
 .nav .topic_mojo_img{
     cursor: pointer;;
