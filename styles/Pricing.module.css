@@ -182,7 +182,7 @@
   align-items: center;
   margin: 100px auto;
   width: 1200px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   justify-content: center;
 }
 
