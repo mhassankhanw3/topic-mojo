@@ -27,7 +27,7 @@ const LaunchOption = () => {
             <p>
             TopicMojo supports 50+ data sources. It's the easiest and most effective way to do topic research.
             </p>
-            <div>
+            <div className={styles.shadow_three}>
               <button className={styles.button}>Learn More</button>
             </div>
           </div>

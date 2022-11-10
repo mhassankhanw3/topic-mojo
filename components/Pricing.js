@@ -10,7 +10,7 @@ import { CgScreen } from "react-icons/cg";
 import { BsListUl } from "react-icons/bs";
 import { IoMdPeople } from "react-icons/io";
 import { HiOutlineCheck } from "react-icons/hi";
-import { GiTireIronCross } from "react-icons/gi";
+import { BsX } from "react-icons/bs";
 
 const Pricing = () => {
   return (
@@ -70,19 +70,19 @@ const Pricing = () => {
                 <h4>0 Team Members</h4>
               </div>
               <div className={styles.icons_flex}>
-                <GiTireIronCross className={styles.icon_cross} />
+                <BsX className={styles.icon_cross} />
                 <h4>SEO data</h4>
               </div>
               <div className={styles.icons_flex}>
-                <GiTireIronCross className={styles.icon_cross} />
+                <BsX className={styles.icon_cross} />
                 <h4>Search listening</h4>
               </div>
               <div className={styles.icons_flex}>
-                <GiTireIronCross className={styles.icon_cross} />
+                <BsX className={styles.icon_cross} />
                 <h4>Search listening</h4>
               </div>
               <div className={styles.icons_flex}>
-                <GiTireIronCross className={styles.icon_cross} />
+                <BsX className={styles.icon_cross} />
                 <h4>Search listening</h4>
               </div>
             </div>
@@ -180,19 +180,19 @@ const Pricing = () => {
                 <h4>0 Team Members</h4>
               </div>
               <div className={styles.icons_flex}>
-                <GiTireIronCross className={styles.icon_cross} />
+                <BsX className={styles.icon_cross} />
                 <h4>SEO data</h4>
               </div>
               <div className={styles.icons_flex}>
-                <GiTireIronCross className={styles.icon_cross} />
+                <BsX className={styles.icon_cross} />
                 <h4>Search listening</h4>
               </div>
               <div className={styles.icons_flex}>
-                <GiTireIronCross className={styles.icon_cross} />
+                <BsX className={styles.icon_cross} />
                 <h4>Search listening</h4>
               </div>
               <div className={styles.icons_flex}>
-                <GiTireIronCross className={styles.icon_cross} />
+                <BsX className={styles.icon_cross} />
                 <h4>Search listening</h4>
               </div>
             </div>

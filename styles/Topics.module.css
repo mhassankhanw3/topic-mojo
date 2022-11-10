@@ -195,28 +195,45 @@
   top: 4px;
   left: -8px; 
 }
-
+.shadow_three .button{
+      width: 140px;
+}
+.shadow_three{
+  z-index: 1;
+}
+.shadow_three .button::after{
+  background: linear-gradient(90deg,#44bcff -.55%,#44b0ff 22.86%,#ff44ec 48.36%,#ff44ec 73.33%,#ff675e 99.34%);
+  filter: blur(30px);
+  z-index: -1;
+  width: 150px;
+  height: 50px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  /* margin-left: -100px; */
+  top: 4px;
+  left: -8px; 
+  transition-duration: 1s;
+  transition: 1s;
+}
 /* background: linear-gradient(90deg,#44b0ff 22.86%,#44bcff -.55%,#ff44ec 73.33%,#ff44ec 48.36%,); */
 
-/* .shadow .button:hover::after{
+.shadow_three .button:hover::after{
   background: linear-gradient(90deg,#ff44ec 48.36%,#44b0ff 22.86%,#ff44ec 73.33%,#44bcff -.55%,#ff675e 99.34%);
   filter: blur(30px);
   z-index: -1;
-  width: 280px;
+  width: 150px;
   background-position: 200px;
   height: 50px;
   content: "";
   position: absolute;
   inset: 17.2em;
-  margin-left: -100px;
+  /* margin-left: -100px; */
   top: 4px;
   left: -8px; 
-} */
-
-.flex_one_flex .button:hover{
-  background: #282a3ae6;
-  color: rgba(255, 255, 255, 0.847);
 }
+
+
 .flex_one_flex .button{
   background: #282a3a;
   border-radius: 6px;

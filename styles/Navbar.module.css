@@ -22,6 +22,11 @@
 .nav ul li a{
     color:rgba(130, 130, 130, 1);
     text-decoration: none;
+    transition: 0.1s;
+}
+.nav ul li a:hover{
+    color:rgb(48, 48, 48);
+    text-decoration: none;
 }
 .nav .topic_mojo_img{
     cursor: pointer;;

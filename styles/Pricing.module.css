@@ -1,5 +1,5 @@
 .main_section {
-  margin-top: 34%;
+  margin-top: 26%;
 }
 
 .flex_bill {
@@ -197,11 +197,12 @@
 }
 
 .icons_flex {
-  width: 284px;
+  width: 290px;
   /* border: 1px solid black; */
   margin: 14px auto;
   display: flex;
   align-items: center;
+  text-align: start;
 }
 
 .icons_flex h4 {
@@ -220,8 +221,9 @@
   color: #282a3a;
 }
 .icon_cross {
-  font-size: 20px;
+  font-size: 24px;
   color: #ff6565;
+  margin-left: -4px;
 }
 /* F7EAFF */
 
@@ -281,7 +283,7 @@
   border: none;
 }
 .darkbtn button:hover{
-  background-color: rgba(255, 255, 255, 0.881);
+  background-color: rgba(255, 255, 255, 0.801);
   color: #282a3ade;
   cursor: pointer;
 }
@@ -354,10 +356,11 @@
 }
 
 .icons_flex_second {
-  width: 284px;
+  width: 290px;
   /* border: 1px solid black; */
   margin: 14px auto;
   display: flex;
+  text-align: start;
   align-items: center;
 }
 

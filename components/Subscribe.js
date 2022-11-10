@@ -12,7 +12,9 @@ const Subscribe = () => {
           <div className={styles.input}>
             <input type="text" placeholder="First name" />
             <input type="text" placeholder="Email address" />
+            <div className={styles.shadow_three}>
             <button className={styles.button}>Subscribe Now</button>
+            </div>
           </div>
         </div>
       </div>

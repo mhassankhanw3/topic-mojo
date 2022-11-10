@@ -13,7 +13,9 @@ const Content = () => {
             <Image className={styles.bulb_img} src={bulb} />
             <h2>Running out of content ideas?</h2>
             <p>Fear not, we have the perfect solution for you.</p>
+            <div className={styles.shadow_three}>
             <button className={styles.button}>Get Started at $10/mo</button>
+            </div>
         </div>
     </div>
   )

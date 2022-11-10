@@ -1,11 +1,15 @@
 .section{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    /* border: 1px solid black; */
+    width: 950px;
+    justify-content: center;
+    margin: 50px auto;
 }
 
 .main {
   font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 700;
+  /* font-weight: 700; */
+  font-weight: bold;
   font-size: 42px;
   line-height: 53px;
   text-align: center;
