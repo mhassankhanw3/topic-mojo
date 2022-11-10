@@ -4,6 +4,7 @@
   /* border: 1px solid black; */
 }
 .buttons button {
+  cursor: text;
   margin: 12px 12px 12px 0px;
 }
 .button_one {
@@ -146,8 +147,8 @@
 .button {
   width: 250.07px;
   height: 56px;
-  /* left: 110px;
-  top: 389px; */
+  transition-duration: 0.2s;
+  transition: 0.2s;
   background: #282a3a;
   border-radius: 8px;
   padding: 10px 16px;
@@ -159,10 +160,15 @@
   /* margin-left: 30px; */
   margin-right: -50px;
   position: relative;
-  /* transition-delay: 1s; */
+  transition-delay: 0.3s;
+  transition: 0.3s;
 }
 .shadow_two{
   z-index: 1;
+}
+.shadow_two .button:hover{
+  background: #282a3ad8;
+  color: rgba(255, 255, 255, 0.87);
 }
 .shadow_two .button::after{
   background: linear-gradient(90deg,#44bcff -.55%,#44b0ff 22.86%,#ff44ec 48.36%,#ff44ec 73.33%,#ff675e 99.34%);
@@ -233,7 +239,12 @@
   left: -8px; 
 }
 
-
+.shadow_three .button:hover{
+  background: #282a3ad6;
+  color: rgba(255, 255, 255, 0.856);
+  transition-duration: 0.3s;
+  transition: 0.3s;
+}
 .flex_one_flex .button{
   background: #282a3a;
   border-radius: 6px;
@@ -243,7 +254,7 @@
   border: none;
   border: 1px solid #282a3a;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 .flex_one_flex {
   /* border: 1px solid black; */

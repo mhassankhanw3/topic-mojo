@@ -35,13 +35,17 @@
 }
 .nav button{
     background-color: #282a3a;
-    padding: 10px 16px;
+    padding: 14px 24px;
     /* margin-right: 20px; */
     border-radius: 6px;
     color: white;
     font-size: 18px;
     border: none;
     cursor:pointer;
+}
+.nav button:hover{
+    background-color: #282a3ad6;
+    color: rgb(255, 255, 255);
 }
 .nav .topic_mojo_img{
     width: auto;

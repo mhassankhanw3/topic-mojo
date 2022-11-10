@@ -104,46 +104,85 @@
 }
 .as_feature .bg_bg {
   position: relative;
+  /* border: 1px solid black; */
+
   width: 100%;
+}
+.bg_img::after{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background: linear-gradient(90deg,#44bcff -.55%,#44b0ff 22.86%,#ff44ec 48.36%,#ff44ec 73.33%,#ff675e 99.34%);
+  filter: blur(30px);
+  z-index: -1;
+  width: 720px;
+  height: 80px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  top: 20px;
+  left: -4px; 
+  transition-duration: 1s;
+  transition: 1s;
+}
+/* background: linear-gradient(90deg,#44b0ff 22.86%,#44bcff -.55%,#ff44ec 73.33%,#ff44ec 48.36%,); */
+
+.bg_img:hover::after{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background: linear-gradient(90deg,#44bcff -.55%,#44b0ff 22.86%,#ff44ec 48.36%,#ff44ec 73.33%,#ff675e 99.34%);
+  filter: blur(30px);
+  z-index: -1;
+  width: 720px;
+  height: 80px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  top: 20px;
+  left: -4px; 
 }
 .bg_white {
   position: absolute;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 10px;
-  margin: -180px 0px 0px 0px;
+  margin: -150px 0px 0px 0px;
   text-align: center;
   width: 100%;
-  height: 90px;
+  /* height: 90px; */
   /* border: 1px solid black; */
 
+}
+.bg_img{
+   z-index: 1;
 }
 .bg_white .bg_img {
   /* margin-top: -150px;
   margin-left: 370px; */
-  width: auto;
+  /* width: auto; */
   position: absolute;
-  display: flex;
+  display: block;
   justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   /* border: 1px solid black; */
   border-radius: 10px;
 
 }
 .bg_white h2 {
   position: absolute;
-  margin-top: -60px;
-  /* margin: -250px auto 20px auto; */
-  /* display: flex; */
+  margin: -60px auto 0px auto;
   justify-content: center;
-  /* align-items: center; */
   text-align: center;
-  width: 1500px;
-  /* font-family: "Plus Jakarta Sans"; */
+  /* width: 1000px; */
   font-style: bold;
-  /* font-weight: bold; */
-  /* font-weight: 800; */
   font-size: 32px;
   color: #242424;
   /* border: 1px solid black; */
