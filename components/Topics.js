@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "../styles/Topics.module.css";
 import Buttons from "./Buttons";
 import main1 from "../public/images/main1.png";
+import main2 from "../public/images/main2.png";
+import main3 from "../public/images/main3.png";
 const Topics = () => {
   return (
     <div>
@@ -24,7 +26,7 @@ const Topics = () => {
         </div>
         <div className={styles.flex_two}>
           <div className={styles.img}>
-            <Image src={main1} />
+            <Image src={main2} />
           </div>
           <div className={styles.block2}>
             <h2>Question Finder</h2>
@@ -49,7 +51,7 @@ const Topics = () => {
             </div>
           </div>
           <div className={styles.img}>
-            <Image src={main1} />
+            <Image src={main3} />
           </div>
         </div>
       </div>

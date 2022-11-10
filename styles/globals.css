@@ -8,7 +8,8 @@ body {
     system-ui, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
-body h1{
+
+/* body h1{
   font-family: Plus Jakarta Sans, sans-serif, ui-sans-serif, -apple-system,
   system-ui, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Apple Color Emoji,
   Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
@@ -19,7 +20,7 @@ body h2{
   system-ui, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Apple Color Emoji,
   Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-weight: 800;
-}
+} */
 /* 
 body {
     display: flex;
@@ -56,3 +57,19 @@ body {
       /* float:left; */
       /* width:100%; */
   /* } * */
+
+
+  /*  animation */
+
+  .box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {right: 0px;}
+    to {right: 200px;}
+  }

@@ -15,7 +15,7 @@
 }
 .block h1 {
   /* font-weight: 800; */
-  /* font-weight: bold !important; */
+  font-weight: 700;
   font-size: 42px;
   color: rgb(23, 23, 23);
 }
