@@ -60,13 +60,14 @@
   filter: blur(30px);
   z-index: -1;
   width: 280px;
+  background-position: 200px;
   height: 60px;
   content: "";
   position: absolute;
   inset: 17.2em;
   /* margin-left: -100px; */
-  top: 385px;
-  left: 2420px; 
+  top: 2px;
+  left: -8px; 
 }
 .block .span {
   margin-top: 30px;
