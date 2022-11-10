@@ -14,7 +14,8 @@
   /* border: 1px solid black; */
 }
 .block h1 {
-  font-weight: 700;
+  /* font-weight: 800; */
+  /* font-weight: bold !important; */
   font-size: 42px;
   color: rgb(23, 23, 23);
 }
@@ -139,9 +140,10 @@
   /* align-items: center; */
   text-align: center;
   width: 1500px;
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 700;
+  /* font-family: "Plus Jakarta Sans"; */
+  font-style: bold;
+  /* font-weight: bold; */
+  /* font-weight: 800; */
   font-size: 32px;
   color: #242424;
   /* border: 1px solid black; */

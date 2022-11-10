@@ -115,7 +115,7 @@
 
 .bground {
   /* border: 1px solid black; */
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 .launch{
@@ -126,38 +126,93 @@
   display: flex;
   align-items: center;
   width: 100%;
-  margin: 70px 0px 0px -10px;
+  margin-top: -260px;
   justify-content: center;
   /* border: 1px solid black; */
 }
 .flex_launch h2{
   /* border: 1px solid black; */
-  width: 510px;
+  width: 570px;
   font-size: 42px;
   letter-spacing: -2px;
   line-height: 65px;
   margin: 0px 40px 0px 40px;
 }
 .launch_img{
+  /* position: absolute; */
   margin-top: -110px;
   margin-right: -10px;
 }
-.flex_launch .button {
+.button {
+  width: 250.07px;
+  height: 56px;
+  /* left: 110px;
+  top: 389px; */
   background: #282a3a;
-  border-radius: 6px;
-  padding: 14px 20px;
+  border-radius: 8px;
+  padding: 10px 16px;
   color: white;
   font-size: 18px;
   border: none;
-  border: 1px solid #282a3a;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-left: 20px;
+  /* margin-top: px; */
+  /* margin-left: 30px; */
+  margin-right: -50px;
+  position: relative;
+  /* transition-delay: 1s; */
 }
-.flex_launch .button:hover{
-  background: #282a3ada;
-  color: rgba(255, 255, 255, 0.847);
+.shadow_two{
+  z-index: 1;
 }
+.shadow_two .button::after{
+  background: linear-gradient(90deg,#44bcff -.55%,#44b0ff 22.86%,#ff44ec 48.36%,#ff44ec 73.33%,#ff675e 99.34%);
+  filter: blur(30px);
+  z-index: -1;
+  width: 280px;
+  height: 50px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  /* margin-left: -100px; */
+  top: 4px;
+  left: -8px; 
+  transition-duration: 1s;
+  transition: 1s;
+}
+/* background: linear-gradient(90deg,#44b0ff 22.86%,#44bcff -.55%,#ff44ec 73.33%,#ff44ec 48.36%,); */
+
+.shadow_two .button:hover::after{
+  background: linear-gradient(90deg,#ff44ec 48.36%,#44b0ff 22.86%,#ff44ec 73.33%,#44bcff -.55%,#ff675e 99.34%);
+  filter: blur(30px);
+  z-index: -1;
+  width: 280px;
+  background-position: 200px;
+  height: 50px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  /* margin-left: -100px; */
+  top: 4px;
+  left: -8px; 
+}
+
+/* background: linear-gradient(90deg,#44b0ff 22.86%,#44bcff -.55%,#ff44ec 73.33%,#ff44ec 48.36%,); */
+
+/* .shadow .button:hover::after{
+  background: linear-gradient(90deg,#ff44ec 48.36%,#44b0ff 22.86%,#ff44ec 73.33%,#44bcff -.55%,#ff675e 99.34%);
+  filter: blur(30px);
+  z-index: -1;
+  width: 280px;
+  background-position: 200px;
+  height: 50px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  margin-left: -100px;
+  top: 4px;
+  left: -8px; 
+} */
+
 .flex_one_flex .button:hover{
   background: #282a3ae6;
   color: rgba(255, 255, 255, 0.847);

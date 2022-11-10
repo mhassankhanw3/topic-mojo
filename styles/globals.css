@@ -8,6 +8,18 @@ body {
     system-ui, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
+body h1{
+  font-family: Plus Jakarta Sans, sans-serif, ui-sans-serif, -apple-system,
+  system-ui, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Apple Color Emoji,
+  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: bold;
+}
+body h2{
+  font-family: Plus Jakarta Sans, sans-serif, ui-sans-serif, -apple-system,
+  system-ui, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Apple Color Emoji,
+  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 800;
+}
 /* 
 body {
     display: flex;
