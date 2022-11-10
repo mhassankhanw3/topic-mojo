@@ -11,9 +11,9 @@ const DaisyCards = () => {
     <div>
       <div className={styles.daisycards}>
         <div className={styles.arrow}>
-          <Image src={left_arrow} />
+          <Image className={styles.mainarrow} src={left_arrow} />
           <h1>Listen to our users talk about TopicMojo</h1>
-          <Image src={right_arrow} />
+          <Image className={styles.mainarrow} src={right_arrow} />
         </div>
         <div className={styles.allcards}>
           <div className={styles.card_one}>

@@ -126,7 +126,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  margin: 70px 0px 0px 00px;
+  margin: 70px 0px 0px -10px;
   justify-content: center;
   /* border: 1px solid black; */
 }
@@ -140,8 +140,29 @@
 }
 .launch_img{
   margin-top: -110px;
+  margin-right: -10px;
 }
- .button {
+.flex_launch .button {
+  background: #282a3a;
+  border-radius: 6px;
+  padding: 14px 20px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border: 1px solid #282a3a;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 20px;
+}
+.flex_launch .button:hover{
+  background: #282a3ada;
+  color: rgba(255, 255, 255, 0.847);
+}
+.flex_one_flex .button:hover{
+  background: #282a3ae6;
+  color: rgba(255, 255, 255, 0.847);
+}
+.flex_one_flex .button{
   background: #282a3a;
   border-radius: 6px;
   padding: 14px 20px;

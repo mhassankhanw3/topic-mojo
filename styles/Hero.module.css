@@ -3,7 +3,9 @@
   margin-top: 70px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 60px auto 0px auto;
 }
 .block {
   margin-top: -60px;
@@ -34,6 +36,34 @@
   border: none;
   cursor: pointer;
   margin-top: 80px;
+ 
+}
+.block .shadow button::after{
+  background: linear-gradient(90deg,#44bcff -.55%,#44b0ff 22.86%,#ff44ec 48.36%,#ff44ec 73.33%,#ff675e 99.34%);
+  filter: blur(30px);
+  z-index: -1;
+  width: 280px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  margin-left: -100px;
+  top: 390px;
+  left: 250px;
+  transition: 0.4s;
+}
+/* background: linear-gradient(90deg,#44b0ff 22.86%,#44bcff -.55%,#ff44ec 73.33%,#ff44ec 48.36%,); */
+
+.block .shadow button:hover::after{
+  background: linear-gradient(90deg,#ff44ec 48.36%,#44b0ff 22.86%,#ff44ec 73.33%,#44bcff -.55%,#ff675e 99.34%);
+  filter: blur(30px);
+  z-index: -1;
+  width: 280px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  margin-left: -100px;
+  top: 390px;
+  left: 250px;
 }
 .block .span {
   margin-top: 30px;
@@ -76,7 +106,7 @@
   justify-content: center;
   padding: 10px;
   border-radius: 10px;
-  margin: -150px 0px 0px 0px;
+  margin: -180px 0px 0px 0px;
   text-align: center;
   width: 100%;
   height: 90px;
@@ -92,6 +122,8 @@
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   /* border: 1px solid black; */
+  border-radius: 10px;
+
 }
 .bg_white h2 {
   position: absolute;

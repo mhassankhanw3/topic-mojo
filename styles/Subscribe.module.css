@@ -48,5 +48,5 @@
     font-size: 18px;
 }
 .input input:focus{
-    border: none;
+    outline: none;
 }

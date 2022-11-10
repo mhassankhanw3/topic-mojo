@@ -11,6 +11,7 @@
   /* border: 1px solid black; */
 }
 .gray {
+  cursor: pointer;
   background: #484848;
   border-radius: 43px;
   width: 55px;
@@ -175,8 +176,12 @@
   line-height: 25px;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
-
+.btn button:hover{
+  background: #282a3ad8;
+  color: #ffffffe1;
+}
 .bill_card {
   display: flex;
   align-items: center;
@@ -245,7 +250,7 @@
   margin: 30px auto;
 }
 .firstCard .yellow {
-  background-color: #F7EAFF;
+  background-color: #f7eaff;
   border-radius: 25px;
   width: 284px;
   margin: 30px auto;
@@ -274,6 +279,11 @@
   line-height: 25px;
   color: #282a3a;
   border: none;
+}
+.darkbtn button:hover{
+  background-color: rgba(255, 255, 255, 0.881);
+  color: #282a3ade;
+  cursor: pointer;
 }
 .free_second {
   /* border: 1px solid black; */
@@ -364,9 +374,9 @@
 
 .icon {
   font-size: 20px;
-  color:  #393939;
+  color: #393939;
 }
 .icon_cross_second {
   font-size: 20px;
-  color:  #1ED131;
+  color: #1ed131;
 }

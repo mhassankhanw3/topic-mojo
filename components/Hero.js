@@ -17,7 +17,10 @@ const Hero = () => {
           </p>
         </div>
         <div>
+          <div className={styles.shadow}>
           <button>Get Started at $10/mo</button>
+          </div>
+          
           <div className={styles.span}>
             <span>Trusted by 19000+ users</span>
             <Image className={styles.spanImg} src={stars} />

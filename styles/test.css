@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background:
+      radial-gradient(at 50% 0, black, transparent 70%),
+      linear-gradient(0deg, black, transparent 50%) bottom;
+    background-size: 100% 15px;
+    background-repeat: no-repeat;
+  }
+  
+  .underline {
+      width: 6em;
+      text-align:center;
+      font-size:30px;
+  }
+  
+  .underline:after {
+      content: '\00a0';
+      background-image:
+        radial-gradient(at 50% 0, blue 0%, red 50%, transparent 75%);
+      background-size: 100% 2px;
+      background-repeat: no-repeat;
+      float:left;
+      width:100%;
+  }
