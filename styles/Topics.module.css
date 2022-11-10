@@ -49,12 +49,6 @@
   to {
     right: 200px;
   }
-  to{
-    left: 0px;
-  }
-  from {
-    left: 200px;
-  }
 }
 .flex_one {
   /* border: 1px solid black; */
