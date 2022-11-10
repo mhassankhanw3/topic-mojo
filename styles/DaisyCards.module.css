@@ -357,3 +357,24 @@
 .mainarrow {
   cursor: pointer;
 }
+
+.arrow .radius{
+  background-color: rgb(255, 255, 255);
+  width: 65px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: auto; */
+  cursor: pointer;
+
+}
+
+.arrow .radius .main_arrow {
+  font-size: 28px;
+  color: #282A3A;
+  cursor: pointer;
+}
