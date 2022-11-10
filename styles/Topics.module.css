@@ -100,32 +100,13 @@
 .img {
   margin-top: 70px;
 }
-@keyframes secondmove {
-  from {
-    right: 0px;
-  }
-  to {
-    right: 200px;
-  }
-  to{
-    left: 0px;
-  }
-  from {
-    left: 200px;
-  }
-}
-.flex_two {
-  position: relative;
 
+.flex_two {
   padding: 20px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 30px 0px 0px 50px;
-  animation: secondmove 1s infinite;
-  animation-iteration-count: 1;
-  animation-direction: alternate;
-  animation-duration: 2s;
 }
 .block2 {
   display: block;
