@@ -1,6 +1,6 @@
 @media screen and (min-width: 960px) {
   .navigation{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 100%;
     justify-content: center;
   }
@@ -10,13 +10,13 @@
 }
 @media screen and (min-width: 700px) {
   .navigation{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 100%;
     width: 3000px;
     justify-content: center;
   }
   .nav{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 100%;
     /* width: 4000px; */
   }

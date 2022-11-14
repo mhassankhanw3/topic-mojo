@@ -14,7 +14,7 @@
 }
 @media screen and (min-width: 960px) {
   .mainFlex {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px 20px;
   }
   .flex .block {
