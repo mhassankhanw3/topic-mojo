@@ -5,14 +5,17 @@
   background: #242424;
   border-radius: 8px;
   text-align: center;
+  /* border: 1px solid black; */
+
 }
 .msg {
   margin-top: 13px;
 }
 .block {
   /* border: 1px solid black; */
+  padding: 12px 14px;
   width: 200px;
-  margin: auto 70px auto 70px;
+  margin: 10px auto 10px auto;
   text-align: center;
   justify-content: center;
   display: block;
@@ -37,5 +40,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    margin: 50px auto auto auto;
+    /* border: 1px solid black; */
+    width: 100%;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .flex{
+    flex-direction: column;
+
+  }
 }

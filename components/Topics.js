@@ -21,12 +21,13 @@ const Topics = () => {
             </div>
           </div>
           <div className={styles.img}>
-            <Image src={main1} />
+            <Image className={styles.img_img} src={main1} />
           </div>
         </div>
         <div className={styles.flex_two}>
+          <div className={styles.flex_two_flex}>
           <div className={styles.img}>
-            <Image src={main2} />
+            <Image className={styles.img_img} src={main2} />
           </div>
           <div className={styles.block2}>
             <h2>Question Finder</h2>
@@ -38,6 +39,7 @@ const Topics = () => {
               <Buttons />
             </div>
           </div>
+        </div>
         </div>
         <div className={styles.flex_one}>
           <div className={styles.block}>
@@ -51,7 +53,7 @@ const Topics = () => {
             </div>
           </div>
           <div className={styles.img}>
-            <Image src={main3} />
+            <Image className={styles.img_img} src={main3} />
           </div>
         </div>
       </div>

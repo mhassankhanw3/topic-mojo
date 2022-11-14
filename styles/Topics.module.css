@@ -49,14 +49,128 @@
   to {
     right: 200px;
   }
-  to{
+  to {
     left: 0px;
   }
   from {
     left: 200px;
   }
 }
+@media screen and (max-width: 1300px) {
+  .flex_one .img .img_img {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    max-height: auto;
+  }
+  .block h2 {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 53px;
+    color: #242424;
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 370px;
+  }
+  .block {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .flex_one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  .flex_one .img .img_img {
+    /* border: 1px solid black; */
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: -40px auto 10px auto;
+  }
+  .block {
+    text-align: center !important;
+    /* border: 1px solid black; */
+    margin: auto;
+  }
+  .block h2 {
+    margin: auto;
+    font-size: 20px;
+  }
+  .block p {
+    margin: 16px auto !important;
+    /* border: 2px solid brown; */
+  }
+  .buttons {
+    margin: auto;
+  }
+
+  .flex_two {
+    width: 100%;
+    max-width: 100%;
+  }
+  .flex_two_flex {
+    margin: -100px auto 0px auto;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+  }
+  .flex_two_flex .img_img {
+    width: 400px !important;
+    height: auto;
+    margin: 10px 0px 10px 40px;
+    max-width: 100%;
+  }
+  .block2 {
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  .block2 p {
+    /* border: 1px solid black; */
+    margin: 10px auto !important;
+    width: 100%;
+  }
+
+  .launch {
+    /* border: 1px solid black; */
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+  .flex_launch {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: -370px !important;
+    max-width: 100%;
+  }
+  .bground {
+    position: relative;
+    height: 510px;
+  }
+  .launch_img {
+    width: 100px;
+    height: auto;
+  }
+  .flex_launch .button {
+    margin: 20px auto;
+    /* border: 1px solid black; */
+    justify-content: center !important;
+  }
+}
 .flex_one {
+  width: 100%;
+  max-width: 100%;
   /* border: 1px solid black; */
   position: relative;
   padding: 20px 20px;
@@ -71,13 +185,15 @@
 }
 .img {
   width: auto;
+  max-width: 100%;
   height: auto;
+  max-height: 100%;
 }
 .block {
   display: block;
   /* border: 1px solid red; */
   width: 500px;
-  margin-left: 170px;
+  /* margin-left: 150px; */
 }
 .block h2 {
   font-family: "Plus Jakarta Sans";
@@ -86,6 +202,8 @@
   font-size: 42px;
   line-height: 53px;
   color: #242424;
+  /* border: 1px solid black; */
+  width: 370px;
 }
 .block p {
   font-weight: 300;
@@ -96,6 +214,7 @@
   color: #5a5a5a;
   margin: 12px 0px;
   width: 370px;
+  /* border: 1px solid black; */
 }
 .img {
   margin-top: 70px;
@@ -108,32 +227,46 @@
   to {
     left: 0px;
   }
-  to{
+  to {
     right: -200px;
   }
   from {
     right: -0px;
   }
-  
 }
-
+/* .flex_two .img{
+  border: 1px solid black;
+} */
+.flex_two_flex {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  max-width: 100%;
+  padding: 0px;
+}
 .flex_two {
+  width: 100%;
+  max-width: 100%;
   position: relative;
   padding: 20px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px 0px 0px 50px;
+  margin: 30px 0px 0px 0px;
   animation: mysecondmove 2s infinite;
   animation-iteration-count: 1;
   animation-direction: alternate;
   animation-duration: 4.5s;
+  /* border: 1px solid red; */
 }
 .block2 {
   display: block;
   /* border: 1px solid red; */
   width: 500px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 .block2 h2 {
   font-family: "Plus Jakarta Sans";
@@ -156,8 +289,10 @@
 
 .bground {
   /* border: 1px solid black; */
+  max-height: 100%;
   position: relative;
   width: 100%;
+  max-width: 100%;
 }
 .launch {
   margin-top: 50px;
@@ -165,8 +300,10 @@
 .flex_launch {
   position: absolute;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   width: 100%;
+  max-width: 100%;
   margin-top: -260px;
   justify-content: center;
   /* border: 1px solid black; */

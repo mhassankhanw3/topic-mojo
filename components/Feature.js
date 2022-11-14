@@ -14,7 +14,7 @@ const Feature = () => {
         <div className={styles.bg_white}>
           <h2>As Featured On</h2>
           <div className={styles.bg_img}>
-          <Image  src={bg_img} />
+          <Image className={styles.bg_img_bg} src={bg_img} />
           </div>
         </div>
       </div>

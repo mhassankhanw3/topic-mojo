@@ -7,14 +7,14 @@ import styles from "../styles/Cards.module.css";
 const Cards = () => {
   return (
     <div>
-      <div>
-        <div className={styles.head}>
+      <div className={styles.mainCards}>
+        {/* <div className={styles.head}>
           <h2>Accurate SEO Data</h2>
           <p>
             Perform in-depth topic research with search volume, PPC difficulty,
             trends similarity, and more that helps you to rank higher on Google.
           </p>
-        </div>
+        </div> */}
         <div className={styles.flex_cards}>
         <div className={styles.cards}>
             <div className={styles.color}>

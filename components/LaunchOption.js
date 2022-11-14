@@ -20,7 +20,7 @@ const LaunchOption = () => {
             </div>
         </div>
     </div>
-    <div className={styles.data_source}>
+    {/* <div className={styles.data_source}>
     <div className={styles.flex_one_flex}>
           <div className={styles.block_block}>
             <h2>Data Sources that we support</h2>
@@ -35,7 +35,7 @@ const LaunchOption = () => {
             <Image src={main4} />
           </div>
         </div>
-    </div>
+    </div> */}
     </>
   )
 }

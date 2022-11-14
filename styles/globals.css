@@ -9,67 +9,20 @@ body {
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
-/* body h1{
-  font-family: Plus Jakarta Sans, sans-serif, ui-sans-serif, -apple-system,
-  system-ui, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Apple Color Emoji,
-  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-weight: bold;
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 0px 40px; */
+  max-width: 100%;
 }
-body h2{
-  font-family: Plus Jakarta Sans, sans-serif, ui-sans-serif, -apple-system,
-  system-ui, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Apple Color Emoji,
-  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-weight: 800;
-} */
-/* 
-body {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .bg-shadow::after {
-    content: "";
-    position: absolute;
-    inset: -0.1em;
-    height: 50px;
-    top: 30px;
-    background: linear-gradient(90deg,#44bcff -.55%,#44b0ff 22.86%,#ff44ec 48.36%,#ff44ec 73.33%,#ff675e 99.34%);
-    filter: blur(35px);
-    z-index: -1;
-    width: 200px;
-  }
-  
-  .underline {
-      width: 6em;
-      text-align:center;
-      font-size:30px;
-  }
-  
-  .underline:after {
-      content: '\00a0';
-      /* background-image:
-        radial-gradient(at 50% 0, blue 0%, red 50%, transparent 75%); */
-      /* background-size: 100% 2px; */
-      /* background-repeat: no-repeat; */
-      /* float:left; */
-      /* width:100%; */
-  /* } * */
+.background{
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
 
-
-  /*  animation */
-
-  .box {
-    width: 100px;
-    height: 100px;
-    background: red;
-    position: relative;
-    animation: mymove 5s infinite;
+@media screen and (min-width: 1200px) {
+ .background {
+    background-color: lightgreen;
   }
-  
-  @keyframes mymove {
-    from {right: 0px;}
-    to {right: 200px;}
-  }
+}

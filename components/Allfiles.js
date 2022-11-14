@@ -15,7 +15,7 @@ import Users from './Users'
 
 const Allfiles = () => {
   return (
-    <div>
+    <div className="container">
         <Navbar/>
         <Hero/>
         <Feature/>
@@ -24,11 +24,11 @@ const Allfiles = () => {
         <LaunchOption/>
         <Cards/>
         <PlatformFeatures/>
-        <DaisyCards/>
-        <Content/>
-        <Pricing/>
-        <Subscribe/>
-        <Footer/>
+        {/* <DaisyCards/> */}
+        {/* <Content/> */}
+        {/* <Pricing/> */}
+        {/* <Subscribe/> */}
+        {/* <Footer/> */}
     </div>
   )
 }

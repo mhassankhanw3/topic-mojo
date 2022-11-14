@@ -6,10 +6,10 @@ import group from "../public/images/Group 3689.png";
 
 const Hero = () => {
   return (
-    <div>
+    <div className={styles.mainFlex}>
       <div className={styles.flex}>
         <div className={styles.block}>
-        <div>
+        <div className={styles.heads}>
           <h1>Topic Research, simplified.</h1>
           <p>
             Our platform provides tools and analysis features that will help you
@@ -28,8 +28,8 @@ const Hero = () => {
         </div>
         </div>
 
-        <div>
-          <Image src={group} />
+        <div >
+          <Image className={styles.group} src={group} />
         </div>
       </div>
     </div>
