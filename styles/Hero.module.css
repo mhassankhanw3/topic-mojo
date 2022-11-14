@@ -57,6 +57,31 @@
     display: none;
   }
 }
+@media screen and (max-width: 350px) {
+  .flex {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .heads p{
+    /* border: 1px solid black; */
+    width: 300px !important;
+  }
+  .flex .shadow button {
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    width: 300px !important;
+    max-width: 100%;
+  }
+  .span {
+    /* border: 1px solid black; */
+    width: 320px !important;
+  }
+  .span span {
+    text-align: start;
+  }
+}
 @media screen and (max-width: 750px) {
   .flex .block h1 {
     font-size: 27px;

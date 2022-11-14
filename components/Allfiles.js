@@ -18,9 +18,9 @@ const Allfiles = () => {
   return (
     <div className="container">
         {/* <Navbar/> */}
-        {/* <Hero/> */}
+        <Hero/>
         {/* <Feature/> */}
-        {/* <Users/> */}
+        <Users/>
         <Topics/>
         <LaunchOption/>
         <DataSource/>

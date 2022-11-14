@@ -129,19 +129,19 @@
     max-width: 100%;
   }
   .block2 {
-    /* justify-content: center; */
-    margin: auto;
-    text-align: center;
-    width: 200px !important;
+    text-align: center !important;
     /* border: 1px solid black; */
+    margin: auto;
+  }
+  .block2 h2 {
+    margin: auto;
+    font-size: 20px;
   }
   .block2 p {
-    /* border: 1px solid black; */
-    margin: 10px auto !important;
-    /* width: 100%; */
-    /* width: 350px !important; */
+    margin: 16px auto !important;
+    /* border: 2px solid brown; */
+    width: 300px !important;
   }
-
   .launch {
     /* border: 1px solid black; */
     width: 100%;
