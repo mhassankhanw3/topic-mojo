@@ -2,6 +2,7 @@ import React from 'react'
 import Cards from './Cards'
 import Content from './Content'
 import DaisyCards from './DaisyCards'
+import DataSource from './DataSource'
 import Feature from './Feature'
 import Footer from './Footer'
 import Hero from './Hero'
@@ -16,14 +17,15 @@ import Users from './Users'
 const Allfiles = () => {
   return (
     <div className="container">
-        <Navbar/>
-        <Hero/>
-        <Feature/>
-        <Users/>
+        {/* <Navbar/> */}
+        {/* <Hero/> */}
+        {/* <Feature/> */}
+        {/* <Users/> */}
         <Topics/>
         <LaunchOption/>
+        <DataSource/>
         <Cards/>
-        <PlatformFeatures/>
+        {/* <PlatformFeatures/> */}
         {/* <DaisyCards/> */}
         {/* <Content/> */}
         {/* <Pricing/> */}

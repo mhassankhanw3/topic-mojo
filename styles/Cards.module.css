@@ -22,10 +22,12 @@
   /* border: 1px solid black; */
   margin: 10px auto 10px auto;
   color: #5a5a5a;
+  max-width: 100%;
 }
 
 .cards {
   margin: 0px 10px;
+  padding: 14px 24px;
   /* margin:10px 30px 10px 30px; */
   border: 1px solid rgb(237, 237, 237);
   width: 345px;
@@ -37,6 +39,7 @@
   margin-top: 15px;
 }
 .color {
+  max-width: 100%;
   text-align: center;
   border-radius: 6px;
   background-color: #ffdfdf;
@@ -46,6 +49,7 @@
   margin: 20px auto 10px auto;
 }
 .color2 {
+  max-width: 100%;
   text-align: center;
   border-radius: 6px;
   background-color: #D5E5FF;
@@ -55,6 +59,7 @@
   margin: 20px auto 10px auto;
 }
 .color3 {
+  max-width: 100%;
   text-align: center;
   border-radius: 6px;
   background-color: #FFE9BA;
@@ -64,6 +69,7 @@
   margin: 20px auto 10px auto;
 }
 .text {
+  max-width: 100%;
   width: 300px;
   margin: 20px auto 10px auto;
 }
@@ -85,6 +91,8 @@
   line-height: 150%;
   color: #5a5a5a;
   margin: 10px 0px 20px 0px;
+  /* border: 1px solid black; */
+  max-width: 100%;
 }
 .flex_cards{
     display: flex;
@@ -92,6 +100,7 @@
     align-items: center;
     margin: 30px auto;
     /* border: 1px solid black; */
+    padding: 0px 20px;
     justify-content: center;
     width: 100%;
     max-width: 100%;
@@ -121,13 +130,16 @@
     max-width: 100%;
   }
   .cards_img{
-    width: 200px;
+    margin-top: 30px;
+    width: 180px;
     height: auto;
   }
   .color {
     width: 450px;
     height: 250px;
     border-radius: 10px;
+    /* border: 1px solid black; */
+    
   }
   .text{
     /* border: 1px solid black; */
@@ -143,4 +155,71 @@
     height: 250px;
     border-radius: 10px;
   }
+  .top{
+    position: absolute;
+    margin-top: 200%;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 100%;
+  }
 }
+@media screen and (max-width: 350px) {
+  .head h2{
+    font-size: 32px;
+  }
+  .head p{
+    width: 300px;
+    font-size: 16px;
+    /* border: 1px solid black; */
+  }
+  .flex_cards {
+    display: block;
+    align-items: center;
+    margin: 30px auto;
+    /* border: 1px solid black; */
+    justify-content: center;
+    width: 600px;
+    max-width: 100%;
+  }
+ 
+  .cards{
+    /* border: 1px solid black; */
+    width: 500px;
+    margin: 30px auto;
+    max-width: 100%;
+  }
+  .cards_img{
+    /* margin-top: 30px; */
+    width: 130px;
+    height: auto;
+  }
+  .color {
+    width: 320px;
+    height: 160px;
+    border-radius: 10px;
+  }
+  .color2 {
+    width: 320px ;
+    height: 160px;
+    border-radius: 10px;
+  }
+  .color3 {
+    width: 320px;
+    height: 160px;
+    border-radius: 10px;
+  }
+  .text{
+    /* border: 1px solid black; */
+    max-width: 100%;
+    width: 320px;
+  }
+  .top{
+    position: absolute;
+    margin-top: 210%;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+

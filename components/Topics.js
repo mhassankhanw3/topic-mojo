@@ -6,7 +6,7 @@ import main2 from "../public/images/main2.png";
 import main3 from "../public/images/main3.png";
 const Topics = () => {
   return (
-    <div>
+    
       <div>
         <div className={styles.flex_one}>
           <div className={styles.block}>
@@ -25,7 +25,6 @@ const Topics = () => {
           </div>
         </div>
         <div className={styles.flex_two}>
-          <div className={styles.flex_two_flex}>
           <div className={styles.img}>
             <Image className={styles.img_img} src={main2} />
           </div>
@@ -39,7 +38,6 @@ const Topics = () => {
               <Buttons />
             </div>
           </div>
-        </div>
         </div>
         <div className={styles.flex_one}>
           <div className={styles.block}>
@@ -57,7 +55,7 @@ const Topics = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
