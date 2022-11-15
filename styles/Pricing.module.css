@@ -1,11 +1,14 @@
 .main_section {
   margin-top: 8%;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 .flex_bill {
   display: flex;
   align-items: center;
-  width: 500px;
+  /* width: 500px; */
   margin: 30px auto;
   justify-content: center;
   /* border: 1px solid black; */
@@ -27,8 +30,11 @@
   background: #ffffff;
   border-radius: 50%;
 }
-.price {
-  margin-top: 10px;
+.price {margin: 10px auto 0px auto;
+  border: 1px solid black;
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
 }
 
 .price h2 {
@@ -83,7 +89,7 @@
 }
 
 .firstCard {
-  margin: 0px 16px 0px 16px;
+  margin: 10px 16px 0px 16px;
   border: 0.1px solid rgb(237, 237, 237);
   background-color: #f3f4f6;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -184,10 +190,12 @@
 }
 .bill_card {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin: 100px auto;
-  width: 1200px;
-  /* border: 1px solid black; */
+  /* width: 1200px; */
+  max-width: 100%;
+  border: 1px solid black;
   justify-content: center;
 }
 
@@ -236,7 +244,7 @@
 
 .secondCard {
   color: white;
-  margin: 0px 10px 0px 10px;
+  margin: 10px 10px 0px 10px ;
   border: 0.1px solid rgb(237, 237, 237);
   background-color: #282a3a;
   box-shadow: 1px 1px 40px rgba(139, 139, 139, 0.08);
@@ -382,4 +390,77 @@
 .icon_cross_second {
   font-size: 20px;
   color: #1ed131;
+}
+
+
+
+@media screen and (max-width: 750px) {
+  .main_section{
+    margin-top: 750%;
+  }
+}
+@media screen and (max-width: 730px) {
+  .main_section{
+    margin-top: 770%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main_section{
+    margin-top: 880%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main_section{
+    margin-top: 900%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .main_section{
+    margin-top: 1050%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main_section{
+    margin-top: 1150%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .main_section{
+    margin-top: 1300%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main_section{
+    margin-top: 1350%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .main_section{
+    margin-top: 1400%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .main_section{
+    margin-top: 1400%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main_section{
+    margin-top: 1450%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .main_section{
+    margin-top: 1600%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .main_section{
+    margin-top: 1650%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .main_section{
+    margin-top: 1700%;
+  }
 }

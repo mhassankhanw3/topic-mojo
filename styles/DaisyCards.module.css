@@ -378,3 +378,89 @@
   color: #282A3A;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 750px) {
+  .content{
+    margin-top: 670%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content{
+    margin-top: 680%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 650px) {
+  .content{
+    margin-top: 790%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content{
+    margin-top: 810%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 550px) {
+  .content{
+    margin-top: 930%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content{
+    margin-top: 1010%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 470px) {
+  .content{
+    margin-top: 1150%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 450px) {
+  .content{
+    margin-top: 1200%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 420px) {
+  .content{
+    margin-top: 1230%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 400px) {
+  .content{
+    margin-top: 1290%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 390px) {
+  .content{
+    margin-top: 1420%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 370px) {
+  .content{
+    margin-top: 1460%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 360px) {
+  .content{
+    margin-top: 1500%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 350px) {
+  .content{
+    margin-top: 1500%;
+    position: absolute;
+  }
+}

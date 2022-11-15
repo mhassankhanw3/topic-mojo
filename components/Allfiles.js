@@ -27,8 +27,8 @@ const Allfiles = () => {
         <Cards/>
         <PlatformFeatures/>
         {/* <DaisyCards/> */}
-        {/* <Content/> */}
-        {/* <Pricing/> */}
+        <Content/>
+        <Pricing/>
         {/* <Subscribe/> */}
         {/* <Footer/> */}
     </div>

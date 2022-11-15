@@ -389,28 +389,31 @@
 
 @media screen and (max-width: 500px) {
   .bg .bg_bg{
-    height: 370px;
+    height: 550px;
    }
    .bg_white{
-    margin-top: -270px;
+    margin-top: -450px;
   }
   .white {
     display: block;
     justify-content: center;
     align-items: center;
-    width: 300px
+    width: 350px
   }
   .white .image .image_image{
-    width: 120px;
+    width: 300px;
     height: auto;
     margin: 4px 0px;
+    border: 1px solid black;
+    opacity: 1.0;
   }
   .bg_img::after{
-    margin-left: 10px;
-    width: 280px;
-    height: 180px;
+    margin-left: 20px;
+    width: 310px !important;
+    height: 380px !important;
   }
 }
+
 
 
 @media screen and (max-width: 350px){

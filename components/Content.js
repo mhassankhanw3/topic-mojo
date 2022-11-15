@@ -6,7 +6,7 @@ import styles from "../styles/DaisyCards.module.css";
 
 const Content = () => {
   return (
-    <div>
+    <div className={styles.content}>
       <div className={styles.mask}>
         <Image className={styles.bg} src={back_three} />
       </div>
