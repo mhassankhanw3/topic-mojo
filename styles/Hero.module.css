@@ -44,7 +44,7 @@
 }
 @media screen and (min-width: 960px) {
   .mainFlex {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* position: relative; */
     padding: 10px 20px;
   }
@@ -440,12 +440,4 @@
     width: 310px !important;
     height: 380px !important;
   }
-}
-
-
-
-@media screen and (max-width: 350px){
-  .bg .bg_bg{
-    /* border: 1px solid black; */
-   }
 }

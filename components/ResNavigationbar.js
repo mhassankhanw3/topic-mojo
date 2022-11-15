@@ -1,4 +1,4 @@
-import styles from "../styles/resNavbar.module.css";
+import styles from "../styles/ResNavigationbar.module.css";
 import { IoIosArrowDown } from "react-icons/io";
 import topic_mojo from "../public/images/TOPICMOJO_ICON.png";
 import Image from "next/image";
