@@ -4,7 +4,6 @@ import styles from "../styles/Subscribe.module.css";
 
 const Subscribe = () => {
   return (
-    <div>
       <div className={styles.backGround}>
         <Image className={styles.position} src={newBack} />
         <div className={styles.text}>
@@ -18,7 +17,6 @@ const Subscribe = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

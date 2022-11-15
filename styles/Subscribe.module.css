@@ -24,6 +24,11 @@
   z-index: 1;
   position: relative;
 }
+.shadow_three .button{
+  max-width: 100%;
+
+  margin: auto;
+}
 .shadow_three .button::after {
   background: linear-gradient(
     90deg,
@@ -87,11 +92,13 @@
   margin-left: 20px;
 }
 .input{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     width: 900px;
-    margin: 10px auto;
+    max-width: 100%;
+    margin: 30px auto;
     justify-content: center;
     text-align: center;
 }
@@ -106,4 +113,55 @@
 }
 .input input:focus{
     outline: none;
+}
+
+@media screen and (max-width: 750px) {
+  .input{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+  .input input{
+    margin-top: 10px;
+  }
+  .input button{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .input input {
+    width: 300px;
+  }
+  .input button {
+    width: 300px;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: 10px !important;
+  }
+  .shadow_three .button::after{
+    width: 280px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 360px)  {
+  .input input {
+    width: 270px;
+  }
+  .input button {
+    width: 270px;
+    max-width: 100%;
+  }
+  .text{
+    margin-top: -370px;
+  }
+  .text h2{
+    font-size: 34px;
+  }
+  .position {
+    height: 350px;
+    object-fit: cover;
+  }
+
 }
