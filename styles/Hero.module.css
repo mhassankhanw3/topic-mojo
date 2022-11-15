@@ -1,5 +1,5 @@
 .flex {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 70px;
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@
     text-align: start;
   }
   .mainFlex{
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 }
 @media screen and (max-width: 750px) {
@@ -404,7 +404,7 @@
     width: 300px;
     height: auto;
     margin: 4px 0px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     opacity: 1.0;
   }
   .bg_img::after{
@@ -418,6 +418,6 @@
 
 @media screen and (max-width: 350px){
   .bg .bg_bg{
-    border: 1px solid black;
+    /* border: 1px solid black; */
    }
 }

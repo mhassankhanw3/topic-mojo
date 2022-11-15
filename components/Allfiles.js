@@ -30,7 +30,7 @@ const Allfiles = () => {
         <Content/>
         <Pricing/>
         <Subscribe/>
-        {/* <Footer/> */}
+        <Footer/>
     </div>
   )
 }

@@ -33,7 +33,7 @@
 }
 
 .list_one {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 285px;
   /* padding: 10px 10px; */
   margin: 20px 20px 20px 20px;
@@ -143,7 +143,7 @@
     margin-bottom: 500%;
     position: absolute;
     z-index: 1;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   /* .main {
     margin-top: 440%;

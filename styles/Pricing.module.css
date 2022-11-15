@@ -31,7 +31,7 @@
   border-radius: 50%;
 }
 .price {margin: 10px auto 0px auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   max-width: 100%;
   justify-content: center;
@@ -195,7 +195,7 @@
   margin: 100px auto;
   /* width: 1200px; */
   max-width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   justify-content: center;
 }
 

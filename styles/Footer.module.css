@@ -1,15 +1,25 @@
+.main_footer{
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  margin-top: 100px;
+}
 .footer {
   /* border: 1px solid black; */
+  max-width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 1400px;
-  margin: 2% auto 100px auto;
+  justify-content: center;
+  width: 100%;
+  /* justify-content: space-evenly; */
+  /* width: 1400px; */
+  margin: 0px auto 100px auto;
 }
 .topic_mojo {
   /* border: 1px solid black; */
   width: 300px;
-  margin: 10px 0px 20px 100px;
+  /* margin: 30px 100px 20px 0px; */
 }
 .topic_mojo p {
   margin-top: 20px;
@@ -21,14 +31,17 @@
   color: #5a5a5a;
 }
 .lists {
-  margin: 100px 0px 20px 0px;
+  margin: 100px auto 20px auto;
   display: flex;
   align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+
 }
 .list {
   /* border: 1px solid black; */
-  width: 300px;
-  padding: 10px 10px;
+  /* width: 250px; */
+  padding: 0px 25px;
 }
 .list h4 {
   font-family: "Plus Jakarta Sans";
@@ -61,14 +74,19 @@
 
 }
 .secondList {
-  margin-top: -66px;
+  margin-top: -40px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .line {
-  border: 1px solid #cccccc;
-  width: 1300px;
+  /* border: 1px solid #919191; */
+  height: 1px;
+  background-color: #919191;
+  /* border-radius: 50%; */
+  /* width: 1300px; */
+  max-width: 1000%;
   margin: -60px auto 10px auto;
 }
 
@@ -81,4 +99,51 @@
   text-align: center;
   color: #5a5a5a;
   margin: 20px auto 20px auto;
+}
+.main_line{
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+
+@media screen and (max-width: 750px) {
+  .footer {
+    display: block;
+    align-items: center;
+    /* margin-top: 30%; */
+  }
+  .topic_mojo{
+    padding: 40px 40px 0px 40px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .topic_mojo{
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+   .lists{
+    display: block;
+    align-items: center;
+    justify-content: center;
+   }
+   .list{
+    margin: 30px auto;
+   }
+   .secondList{
+    display: block;
+   }
+   .secondList .list {
+    margin-top: 70px;
+   } 
+   .footer_text {
+    /* border: 1px solid black; */
+    max-width: 100%;
+    margin: 20px auto;
+    width: 210px;
+    padding: 10px;
+    line-height: 27px;
+   }
 }

@@ -133,7 +133,7 @@
     max-width: 100%;
     max-height: 100%;
     margin: auto !important;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   .block2 {
     justify-content: center;
@@ -249,7 +249,7 @@
     width: 300px;
   }
   .flex_one{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: center;
     width: 100%;
     max-width: 100%;
@@ -269,13 +269,13 @@
 .topics{
   width: 100%;
   max-width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .flex_one {
   width: 1280px;
   margin: auto;
   max-width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
   padding: 20px 20px;
   display: flex;
@@ -365,11 +365,11 @@
   animation-iteration-count: 1;
   animation-direction: alternate;
   animation-duration: 4.5s;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .block2 {
   display: block;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 500px;
   max-width: 100%;
   /* margin-left: 100px; */

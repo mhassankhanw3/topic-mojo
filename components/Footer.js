@@ -5,7 +5,7 @@ import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div className={styles.main_footer}>
       <div className={styles.footer}>
         <div className={styles.topic_mojo}>
           <Image src={logo} />
@@ -55,7 +55,7 @@ const Footer = () => {
             </Link>
             <Link legacyBehavior href="/">
               <li>
-                <a href="/">Questions Finde r</a>
+                <a href="/">Questions Finder</a>
               </li>
             </Link>
             <Link legacyBehavior href="/">
@@ -89,7 +89,9 @@ const Footer = () => {
         </div>
         </div>
       </div>
+      <div className={styles.main_line}>
         <div className={styles.line}></div>
+      </div>
         <div className={styles.footer_text}>
             <p>Copyright TopicMojo 2021 . All rights Reserved. </p>
         </div>

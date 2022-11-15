@@ -42,7 +42,7 @@
     justify-content: center;
     /* margin-top: 100px; */
     margin: 50px auto auto auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 1280px;
     max-width: 100%;
 }
@@ -51,10 +51,5 @@
   .flex{
     flex-direction: column;
 
-  }
-  @media screen and (max-width: 350px) {
-    .flex{
-      border: 1px solid black;
-    }
   }
 }
