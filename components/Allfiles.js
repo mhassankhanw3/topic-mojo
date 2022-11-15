@@ -19,7 +19,7 @@ const Allfiles = () => {
     <div className="container">
         {/* <Navbar/> */}
         <Hero/>
-        {/* <Feature/> */}
+        <Feature/>
         <Users/>
         <Topics/>
         <LaunchOption/>

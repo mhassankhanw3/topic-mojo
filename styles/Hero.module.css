@@ -12,6 +12,22 @@
 .mainFlex {
   max-width: 100%;
 }
+.white{
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid black; */
+  border: none;
+  width: 600px;
+  padding: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+}
+.white .image{
+  margin: auto 10px;
+}
 @media screen and (min-width: 960px) {
   .mainFlex {
     /* border: 1px solid black; */
@@ -244,7 +260,8 @@
   width: 100%;
 }
 .bg_img::after {
-  width: 100%;
+  width: 950px;
+  max-width: 100%;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -273,7 +290,8 @@
 /* background: linear-gradient(90deg,#44b0ff 22.86%,#44bcff -.55%,#ff44ec 73.33%,#ff44ec 48.36%,); */
 
 .bg_img:hover::after {
-  width: 100%;
+  max-width: 100%;
+  width: 550px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -351,10 +369,52 @@
     max-width: 100%;
   }
   .bg_img::after{
-    width: 400px;
+    width: 100%;
     height: 60px;
   }
   .bg_white{
     margin-top: -110px;
   }
+  .white{
+    width: 500px;
+  }
+  .white .image .image_image{
+    width: 80px;
+    height: auto;
+    /* border: 1px solid black; */
+  }
+
+ 
+}
+
+@media screen and (max-width: 500px) {
+  .bg .bg_bg{
+    height: 370px;
+   }
+   .bg_white{
+    margin-top: -270px;
+  }
+  .white {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 300px
+  }
+  .white .image .image_image{
+    width: 120px;
+    height: auto;
+    margin: 4px 0px;
+  }
+  .bg_img::after{
+    margin-left: 10px;
+    width: 280px;
+    height: 180px;
+  }
+}
+
+
+@media screen and (max-width: 350px){
+  .bg .bg_bg{
+    border: 1px solid black;
+   }
 }
