@@ -27,7 +27,6 @@ const Pricing = () => {
               <div className={styles.white}></div>
             </div>
             <p className={styles.flex_bill_year}>Bill Yearly</p>
-            <span className={styles.flex_bill_off}>(20% off)</span>
           </div>
         </div>
       </div>

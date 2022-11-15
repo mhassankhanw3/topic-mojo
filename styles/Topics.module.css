@@ -211,11 +211,28 @@
     /* border: 1px solid black; */
   }
 }
+@media screen and (max-width: 360px) {
+  .bground {
+    height: 750px;
+    object-fit: cover;
+  }
+  .flex_launch{
+    margin-top: -600px !important;
+  }
+  .shadow_two::after {
+    width: 500px;
+    margin-left: 10px;
+  }
+  .shadow_two .button {
+    width: 300px;
+  }
+}
 
 @media screen and (max-width: 350px) {
   .bground {
-    height: 750px;
+    height: 750px ;
     /* display: none; */
+    object-fit: cover;
     width: 100%;
     max-width: 100%;
     margin-bottom: -10px;

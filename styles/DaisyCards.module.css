@@ -439,6 +439,13 @@
     margin-top: 1290%;
     position: absolute;
   }
+  .bg{
+    height: 500px;
+    object-fit: cover;
+  }
+  .bulb{
+    margin-top: -480px;
+  }
 }
 @media screen and (max-width: 390px) {
   .content{
