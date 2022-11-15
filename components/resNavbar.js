@@ -1,11 +1,9 @@
-import styles from "../styles/ResNavbar.module.css";
+import styles from "../styles/resNavbar.module.css";
 import { IoIosArrowDown } from "react-icons/io";
-import { useState } from "react";
 import topic_mojo from "../public/images/TOPICMOJO_ICON.png";
 import Image from "next/image";
 import Link from "next/link";
 import { BsX } from "react-icons/bs";
-import Navbar from "./Navbar";
 
 const ResNavbar = ({settoggle}) => {
 

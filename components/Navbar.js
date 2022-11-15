@@ -5,7 +5,7 @@ import Image from "next/image";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosArrowDown} from "react-icons/io";
 import { useState } from "react";
-import ResNavbar from "../components/ResNavbar";
+import ResNavbar from "./resNavbar";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
