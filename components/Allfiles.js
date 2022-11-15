@@ -19,18 +19,18 @@ const Allfiles = () => {
     <div className="container">
         <Navbar/>
         <Hero/>
-        {/* <Feature/> */}
-        {/* <Users/> */}
-        {/* <Topics/> */}
-        {/* <LaunchOption/> */}
-        {/* <DataSource/> */}
-        {/* <Cards/> */}
-        {/* <PlatformFeatures/> */}
+        <Feature/>
+        <Users/>
+        <Topics/>
+        <LaunchOption/>
+        <DataSource/>
+        <Cards/>
+        <PlatformFeatures/>
         {/* <DaisyCards/> */}
-        {/* <Content/> */}
-        {/* <Pricing/> */}
-        {/* <Subscribe/> */}
-        {/* <Footer/> */}
+        <Content/>
+        <Pricing/>
+        <Subscribe/>
+        <Footer/>
     </div>
   )
 }

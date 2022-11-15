@@ -89,7 +89,7 @@ const Navbar = () => {
           <GiHamburgerMenu className={styles.hamburger_svg} onClick={handleToggle} />
         </div>
         {toggle ? (
-          <ResNavbar/>
+          <ResNavbar toggle={toggle} settoggle={setToggle}/>
         ) : (
           ""
         )}

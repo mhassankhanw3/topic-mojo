@@ -7,7 +7,7 @@
   justify-content: space-between;
 }
 .flex_logo .crossIcon {
-  font-size: 22px;
+  font-size: 24px;
 }
 .flex_logo .resTopic_mojo {
   width: 300px;
@@ -22,7 +22,7 @@
   margin-top: 50px;
 }
 .padd {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px 10px;
   width: 360px;
   max-width: 100%;
@@ -59,6 +59,7 @@
     color: #282a3a;
   } */
 .nav {
+    /* position: absolute; */
   display: block;
   width: 400px;
   /* border: 1px solid black; */
@@ -66,15 +67,24 @@
   max-width: 100%;
   align-items: center;
   padding: 20px 20px;
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
+}
+.newNavi{
+  display: none;
 }
 .navigation {
-    position: relative;
-    float: right;
-  padding: 0px 60px 0px 0px;
+  z-index: 1;
+    
+    position: absolute;
+    top: -427px;
+    right: 0;
+    /* float: right; */
+    margin-top: 427px;
+    /* float: left; */
+    padding: 0px 60px 0px 0px;
   /* border: 1px solid black; */
-  width: 100%;
-  max-width: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 .nav ul {
   /* width: 360px; */
@@ -174,6 +184,7 @@
     margin: 20px 0px;
 }
 .btn_one button {
+    color: rgb(40 42 58/var(--tw-bg-opacity));
   padding: 16px 20px;
   width: 100%;
   max-width: 100%;

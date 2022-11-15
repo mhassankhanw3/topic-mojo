@@ -11,7 +11,21 @@
 }
 .mainFlex {
   max-width: 100%;
+  /* position: absolute; */
+  /* margin-top: 10%; */
+  width: 100%;
+  /* border: 1px solid black; */
 }
+@media screen and (max-width: 600px) {
+  .mainFlex{
+    margin-top: 100px;
+  }
+}
+/* @media screen and (max-width: 770px) {
+  .mainFlex{
+    margin-top: 200px;
+  }
+} */
 .white{
   background-color: rgb(255, 255, 255);
   /* border: 1px solid black !important; */
@@ -30,7 +44,8 @@
 }
 @media screen and (min-width: 960px) {
   .mainFlex {
-    /* border: 1px solid black; */
+    border: 1px solid black;
+    /* position: relative; */
     padding: 10px 20px;
   }
   .flex .block {
@@ -74,6 +89,7 @@
   }
 }
 @media screen and (max-width: 470px) {
+
   .flex {
     width: 100%;
     max-width: 100%;
