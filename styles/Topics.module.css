@@ -202,6 +202,15 @@
     margin: auto;
   }
 }
+@media screen and (max-width: 360px) {
+  .bground{
+    height: 800px;
+  }
+  .flex_launch {
+    margin-top: -650px !important;
+    /* border: 1px solid black; */
+  }
+}
 
 @media screen and (max-width: 350px) {
   .bground {

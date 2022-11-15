@@ -223,3 +223,23 @@
 }
 
 
+@media screen and (max-width: 470px) {
+  .top{
+    margin-top: 250%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .top{
+    margin-top: 280%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .top{
+    margin-top: 300%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .top{
+    margin-top: 330%;
+  }
+}

@@ -88,6 +88,7 @@
 }
 .flex_one_flex {
   /* border: 1px solid black !important; */
+  margin-top: 10%;
   padding: 20px 20px;
   display: flex;
   flex-wrap: wrap;
@@ -128,7 +129,7 @@
     .flex_one_flex {
         /* border: 1px solid gray; */
         position: absolute;
-        margin-top: 100px;
+        margin-top: 400px;
     }
     .block_block{
         text-align: center;

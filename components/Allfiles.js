@@ -25,7 +25,7 @@ const Allfiles = () => {
         <LaunchOption/>
         <DataSource/>
         <Cards/>
-        {/* <PlatformFeatures/> */}
+        <PlatformFeatures/>
         {/* <DaisyCards/> */}
         {/* <Content/> */}
         {/* <Pricing/> */}

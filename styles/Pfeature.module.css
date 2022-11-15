@@ -5,6 +5,9 @@
     justify-content: center;
     margin: 50px auto;
 }
+.items{
+  margin-top: 200px;
+}
 
 .main {
   font-family: "Plus Jakarta Sans";
@@ -30,7 +33,7 @@
 }
 
 .list_one {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   width: 285px;
   /* padding: 10px 10px; */
   margin: 20px 20px 20px 20px;
@@ -66,16 +69,85 @@
   color: #5a5a5a;
 }
 
-
+@media screen and (max-width: 550px) {
+  .main{
+    margin-top: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main{
+    margin-top: 150%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .main{
+    margin-top: 230%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main{
+    margin-top: 250%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .main{
+    margin-top: 270%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main{
+    margin-top: 310%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .main{
+    margin-top: 430%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .main{
+    margin-top: 430%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .main{
+    margin-top: 430%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .main{
+    margin-top: 460%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .main{
+    margin-top: 410%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .main{
+    margin-top: 400%;
+  }
+}
 @media screen and (max-width: 750px) {
   .section {
-    display: block;
+    /* display: block; */
     /* flex-direction: column !important; */
+   
     justify-content: center;
     align-items: center;
-    margin: auto;
-
+    margin: 5% auto;
   }
+  .items{
+    margin-top: 440%;
+    margin-bottom: 500%;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid black;
+  }
+  /* .main {
+    margin-top: 440%;
+  } */
   .flex{
     align-items: center;
     justify-content: center;

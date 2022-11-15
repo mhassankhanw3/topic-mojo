@@ -12,7 +12,7 @@ import p_nine from "../public/images/p9.png";
 
 const PlatformFeatures = () => {
   return (
-    <>
+    <div className={styles.items}>
       <h1 className={styles.main}>Platform Features</h1>
     <div className={styles.section}>
       <div className={styles.flex}>
@@ -131,7 +131,7 @@ const PlatformFeatures = () => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   );
 };
 
