@@ -7,7 +7,7 @@ import main3 from "../public/images/main3.png";
 const Topics = () => {
   return (
     
-      <div>
+      <div className={styles.topics}>
         <div className={styles.flex_one}>
           <div className={styles.block}>
             <h2>Topic Model</h2>

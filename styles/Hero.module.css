@@ -57,7 +57,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 470px) {
   .flex {
     width: 100%;
     max-width: 100%;
@@ -80,6 +80,9 @@
   }
   .span span {
     text-align: start;
+  }
+  .mainFlex{
+    border: 1px solid black;
   }
 }
 @media screen and (max-width: 750px) {
