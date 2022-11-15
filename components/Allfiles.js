@@ -5,12 +5,11 @@ import DaisyCards from './DaisyCards'
 import DataSource from './DataSource'
 import Feature from './Feature'
 import Footer from './Footer'
-import Hero from './Hero'
+import Hero from './Hero';
 import LaunchOption from './LaunchOption'
-import Navbar from './Navbar'
+import Navbar from './Navbar';
 import PlatformFeatures from './PlatformFeatures'
 import Pricing from './Pricing'
-// import ResNavbar from './ResNavbar'
 import Subscribe from './Subscribe'
 import Topics from './Topics'
 import Users from './Users'
@@ -19,7 +18,6 @@ const Allfiles = () => {
   return (
     <div className="container">
         <Navbar/>
-        {/* <ResNavbar/> */}
         <Hero/>
         {/* <Feature/> */}
         {/* <Users/> */}
