@@ -19,19 +19,23 @@ const Feature = () => {
           <div className={styles.bg_img}>
           <div className={styles.white}>
         <div className={styles.image}>
-          <Image className={styles.image_image} src={whitebg1} />
+          <img className={styles.image_image} width="130" height='auto' src={"https://www.collegeessayadvisors.com/wp-content/uploads/2016/05/Digital-Journal-Logo.png"} />
         </div>
         <div className={styles.image}>
           {" "}
-          <Image className={styles.image_image} src={whitebg2} />
+          <img className={styles.image_image} width="130" height='auto' src={"https://www.dailyherald.com/gfx/rwd/dh-logo-252x50.png"} />
         </div>
         <div className={styles.image}>
           {" "}
-          <Image className={styles.image_image} src={whitebg3} />
+          <img className={styles.image_image} width="130" height='auto' src={"https://d21b0h47110qhi.cloudfront.net/az/download-TxHkm0J2f4l2d4o.png"} />
         </div>
         <div className={styles.image}>
           {" "}
-          <Image className={styles.image_image} src={whitebg4} />
+          <img className={styles.image_image} width="130" height='auto' src={"https://bloximages.newyork1.vip.townnews.com/pawtuckettimes.com/content/tncms/custom/image/c414c900-f3f6-11e4-b2c1-7fdace25f2cc.png"} />
+        </div>
+        <div className={styles.image}>
+          {" "}
+          <img className={styles.image_image} width="130" height='auto' src={"https://www.fortwaynesnbc.com/pf/resources/images/mastheads/logos/wpta-nbc.svg?d=280"} />
         </div>
       </div>
           </div>

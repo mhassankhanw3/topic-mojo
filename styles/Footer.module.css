@@ -19,6 +19,8 @@
 .topic_mojo {
   /* border: 1px solid black; */
   width: 300px;
+  padding: 10px 20px;
+  margin-left: 20px;
   /* margin: 30px 100px 20px 0px; */
 }
 .topic_mojo p {

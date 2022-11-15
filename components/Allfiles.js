@@ -10,6 +10,7 @@ import LaunchOption from './LaunchOption'
 import Navbar from './Navbar'
 import PlatformFeatures from './PlatformFeatures'
 import Pricing from './Pricing'
+import ResNavbar from './ResNavbar'
 import Subscribe from './Subscribe'
 import Topics from './Topics'
 import Users from './Users'
@@ -17,20 +18,21 @@ import Users from './Users'
 const Allfiles = () => {
   return (
     <div className="container">
-        {/* <Navbar/> */}
+        <Navbar/>
+        {/* <ResNavbar/> */}
         <Hero/>
-        <Feature/>
-        <Users/>
-        <Topics/>
-        <LaunchOption/>
-        <DataSource/>
-        <Cards/>
-        <PlatformFeatures/>
+        {/* <Feature/> */}
+        {/* <Users/> */}
+        {/* <Topics/> */}
+        {/* <LaunchOption/> */}
+        {/* <DataSource/> */}
+        {/* <Cards/> */}
+        {/* <PlatformFeatures/> */}
         {/* <DaisyCards/> */}
-        <Content/>
-        <Pricing/>
-        <Subscribe/>
-        <Footer/>
+        {/* <Content/> */}
+        {/* <Pricing/> */}
+        {/* <Subscribe/> */}
+        {/* <Footer/> */}
     </div>
   )
 }
