@@ -459,19 +459,32 @@
 }
 @media screen and (max-width: 370px) {
   .content{
-    margin-top: 1460%;
+    margin-top: 1340%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 364px){
+  .content{
+    margin-top: 1350%;
     position: absolute;
   }
 }
 @media screen and (max-width: 360px) {
   .content{
-    margin-top: 1500%;
+    margin-top: 1400%;
     position: absolute;
+    /* border: 1px solid black; */
   }
 }
 @media screen and (max-width: 350px) {
   .content{
-    margin-top: 1500%;
+    margin-top: 1400%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 340px) {
+  .content{
+    margin-top: 1470%;
     position: absolute;
   }
 }
