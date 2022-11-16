@@ -10,7 +10,7 @@ import styles from "../styles/DaisyCards.module.css";
 
 const DaisyCards = () => {
   return (
-    <div>
+   
       <div className={styles.daisycards}>
         <div className={styles.arrow}>
           {/* <Image className={styles.mainarrow} src={left_arrow} /> */}
@@ -28,8 +28,7 @@ const DaisyCards = () => {
             <Image src={cstar_one} />
             <p className={styles.p_one}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque et placerat metus. Morbi aliquet felis sit amet.
-              Pellentesque et placerat metus. Morbi aliquet felis sit amet.
+              Pellentesque et placerat metus.
             </p>
             <div className={styles.flex}>
               <Image src={man} />
@@ -44,8 +43,7 @@ const DaisyCards = () => {
             <Image src={cstar_one} />
             <p className={styles.p_one}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque et placerat metus. Morbi aliquet felis sit amet.
-              Pellentesque et placerat metus. Morbi aliquet felis sit amet.
+              Pellentesque et placerat metus.
             </p>
             <div className={styles.flex}>
               <Image src={man} />
@@ -60,9 +58,7 @@ const DaisyCards = () => {
             <p className={styles.p_one}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Pellentesque et placerat metus. Morbi aliquet felis sit amet.
-              Pellentesque et placerat metus. Morbi aliquet felis sit amet.Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit.
+              Pellentesque et placerat metus. Morbi aliquet felis sit amet.
             </p>
             <div className={styles.flex}>
               <Image src={man} />
@@ -77,8 +73,7 @@ const DaisyCards = () => {
             <Image src={cstar_one} />
             <p className={styles.p_one}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque et placerat metus. Morbi aliquet felis sit amet.
-              Pellentesque et placerat metus. Morbi aliquet felis sit amet.
+              Pellentesque et placerat metus. 
             </p>
             <div className={styles.flex}>
               <Image src={man} />
@@ -93,9 +88,6 @@ const DaisyCards = () => {
             <p className={styles.p_one}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Pellentesque et placerat metus. Morbi aliquet felis sit amet.
-              Pellentesque et placerat metus. Morbi aliquet felis sit amet.Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className={styles.flex}>
               <Image src={man} />
@@ -107,7 +99,7 @@ const DaisyCards = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 

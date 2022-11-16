@@ -385,6 +385,10 @@
     margin-top: 670%;
     position: absolute;
   }
+  .daisycards{
+    position: absolute;
+    margin-top: 900%;
+  }
 }
 @media screen and (max-width: 700px) {
   .content{

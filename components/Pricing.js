@@ -61,10 +61,6 @@ const Pricing = () => {
                 <h4>0 Workspaces</h4>
               </div>
               <div className={styles.icons_flex}>
-                <BsListUl className={styles.icon} />
-                <h4>0 Saved Lists</h4>
-              </div>
-              <div className={styles.icons_flex}>
                 <IoMdPeople className={styles.icon} />
                 <h4>0 Team Members</h4>
               </div>
@@ -74,15 +70,35 @@ const Pricing = () => {
               </div>
               <div className={styles.icons_flex}>
                 <BsX className={styles.icon_cross} />
-                <h4>Search listening</h4>
+                <h4>Custom domain</h4>
               </div>
               <div className={styles.icons_flex}>
                 <BsX className={styles.icon_cross} />
-                <h4>Search listening</h4>
+                <h4>Custom domain</h4>
               </div>
               <div className={styles.icons_flex}>
                 <BsX className={styles.icon_cross} />
-                <h4>Search listening</h4>
+                <h4>Team members</h4>
+              </div>
+              <div className={styles.icons_flex}>
+                <BsX className={styles.icon_cross} />
+                <h4>CSV Exports</h4>
+              </div>
+              <div className={styles.icons_flex}>
+                <BsX className={styles.icon_cross} />
+                <h4>Priority support</h4>
+              </div>
+              <div className={styles.icons_flex}>
+                <BsX className={styles.icon_cross} />
+                <h4>Outline not available</h4>
+              </div>
+              <div className={styles.icons_flex}>
+                <BsX className={styles.icon_cross} />
+                <h4>All languages supported</h4>
+              </div>
+              <div className={styles.icons_flex}>
+                <BsX className={styles.icon_cross} />
+                <h4>Shareable reports</h4>
               </div>
             </div>
           </div>
@@ -109,19 +125,19 @@ const Pricing = () => {
               </div>
               <div className={styles.icons_flex_second}>
                 <AiOutlineSearch className={styles.icon_second} />
-                <h4>10 queries in Questions Finder</h4>
+                <h4>50 queries/mo in Questions Finder</h4>
               </div>
               <div className={styles.icons_flex_second}>
                 <CgScreen className={styles.icon_second} />
-                <h4>0 Workspaces</h4>
+                <h4>10 queries/mo in Outline</h4>
               </div>
               <div className={styles.icons_flex_second}>
                 <BsListUl className={styles.icon_second} />
-                <h4>0 Saved Lists</h4>
+                <h4>Free SEO Writer</h4>
               </div>
               <div className={styles.icons_flex_second}>
                 <IoMdPeople className={styles.icon_second} />
-                <h4>0 Team Members</h4>
+                <h4>All languages supported</h4>
               </div>
               <div className={styles.icons_flex_second}>
                 <HiOutlineCheck className={styles.icon_cross_second} />
@@ -133,11 +149,31 @@ const Pricing = () => {
               </div>
               <div className={styles.icons_flex_second}>
                 <HiOutlineCheck className={styles.icon_cross_second} />
-                <h4>Search listening</h4>
+                <h4>All countries supported</h4>
+              </div>
+              <div className={styles.icons_flex_second}>
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>Shareable Reports</h4>
+              </div>
+              <div className={styles.icons_flex_second}>
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>Priority support</h4>
+              </div>
+              <div className={styles.icons_flex_second}>
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>Shareable Reports</h4>
               </div>
               <div className={styles.icons_flex_second}>
                 <HiOutlineCheck className={styles.icon_cross_second} />
                 <h4>Search listening</h4>
+              </div>
+              <div className={styles.icons_flex_second}>
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>CSV Exports</h4>
+              </div>
+              <div className={styles.icons_flex_second}>
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>All data sources included</h4>
               </div>
             </div>
           </div>
@@ -179,19 +215,35 @@ const Pricing = () => {
                 <h4>0 Team Members</h4>
               </div>
               <div className={styles.icons_flex}>
-                <BsX className={styles.icon_cross} />
+                <HiOutlineCheck className={styles.icon_cross_second} />
                 <h4>SEO data</h4>
               </div>
               <div className={styles.icons_flex}>
-                <BsX className={styles.icon_cross} />
+                <HiOutlineCheck className={styles.icon_cross_second} />
                 <h4>Search listening</h4>
               </div>
               <div className={styles.icons_flex}>
-                <BsX className={styles.icon_cross} />
-                <h4>Search listening</h4>
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>5 Team members (+$10/member charged)</h4>
               </div>
               <div className={styles.icons_flex}>
-                <BsX className={styles.icon_cross} />
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>Live Chat Support</h4>
+              </div>
+              <div className={styles.icons_flex}>
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>All languages supported</h4>
+              </div>
+              <div className={styles.icons_flex}>
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>5 Team members (+$10/member charged)</h4>
+              </div>
+              <div className={styles.icons_flex}>
+                <HiOutlineCheck className={styles.icon_cross_second} />
+                <h4>Custom domain</h4>
+              </div>
+              <div className={styles.icons_flex}>
+                <HiOutlineCheck className={styles.icon_cross_second} />
                 <h4>Search listening</h4>
               </div>
             </div>
