@@ -265,7 +265,7 @@
 .as_feature .bg_bg {
   position: relative;
   max-width: 100%;
-  width: 1520px;
+  width: 100%;
 }
 .bg_img::after {
   width: 1000px !important;
