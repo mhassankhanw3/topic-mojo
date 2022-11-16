@@ -264,6 +264,10 @@
 }
 .as_feature .bg_bg {
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 
   /* right: 0; */
   /* top: 0; */
