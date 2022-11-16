@@ -215,13 +215,17 @@
   }
   .top{
     position: absolute;
-    margin-top: 2  10%;
-    border: 1px solid black;
+    margin-top: 170%;
+    /* border: 1px solid black; */
     width: 100%;
     max-width: 100%;
   }
 }
-
+@media screen and (max-width: 300px) {
+  .top{
+    margin-top: 20%;
+  }
+}
 
 @media screen and (max-width: 470px) {
   .top{
