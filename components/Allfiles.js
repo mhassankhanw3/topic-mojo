@@ -10,7 +10,6 @@ import LaunchOption from "./LaunchOption";
 import Navbar from "./Navbar";
 import PlatformFeatures from "./PlatformFeatures";
 import Pricing from "./Pricing";
-import ResNavbar from "./resNavbar";
 import Subscribe from "./Subscribe";
 import Topics from "./Topics";
 import Users from "./Users";

@@ -110,12 +110,12 @@
 .nav ul li a:hover {
   color: #121219;
 }
-
-/* .nav .topic_mojo_img {
+ .nav .topic_mojo_img {
+  padding-top: 14px;
     cursor: pointer;
-    width: 200px;
-    height: 45px;
-  } */
+    width: 150px;
+    height: auto;
+  } 
 /*   
   .nav button:hover {
     background-color: #282a3acb;
