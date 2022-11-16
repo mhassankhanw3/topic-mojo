@@ -441,11 +441,3 @@
     height: 380px !important;
   }
 }
-
-
-
-@media screen and (max-width: 350px){
-  .bg .bg_bg{
-    /* border: 1px solid black; */
-   }
-}

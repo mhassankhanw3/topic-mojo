@@ -5,7 +5,7 @@ import Image from "next/image";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosArrowDown} from "react-icons/io";
 import { useState } from "react";
-import ResNavbar from "./resNavbar";
+import ResNavigationbar from "./ResNavigationbar";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -89,7 +89,7 @@ const Navbar = () => {
           <GiHamburgerMenu className={styles.hamburger_svg} onClick={handleToggle} />
         </div>
         {toggle ? (
-          <ResNavbar toggle={toggle} settoggle={setToggle}/>
+          <ResNavigationbar toggle={toggle} settoggle={setToggle}/>
         ) : (
           ""
         )}
