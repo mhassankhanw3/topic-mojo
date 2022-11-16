@@ -264,17 +264,8 @@
 }
 .as_feature .bg_bg {
   position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-
-  /* right: 0; */
-  /* top: 0; */
   max-width: 100%;
-  /* border: 1px solid black; */
-
-  width: 100%;
+  width: 1520px;
 }
 .bg_img::after {
   width: 1000px !important;
